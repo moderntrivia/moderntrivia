@@ -1,0 +1,36 @@
+body {
+ margin: 0;
+ text-align: center;
+ background-color: #000000;
+ color: #FFFFFF;
+ font-family: Helvetica, Arial, sans-serif;
+ padding-bottom: 100px;
+}
+img {
+ max-width: 600px;
+ max-height: 600px;
+ height: auto;
+ margin: 250px auto;
+ display: block;
+}
+.text {
+ max-width: 600px;
+ margin: 250px auto;
+ text-align: justify;
+ line-height: 1.5;
+ color: #999999;
+}
+a {
+ color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+ img {
+  max-width: 90vw;
+  height: auto;
+  margin: 175px auto;
+  }
+  .text {
+  max-width: 90vw;
+  margin: 175px auto;
+  }
+}
